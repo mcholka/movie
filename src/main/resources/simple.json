@@ -1,0 +1,73 @@
+{
+    "adult" : false,
+    "backdrop_path" : "/5XPPB44RQGfkBrbJxmtdndKz05n.jpg",
+    "belongs_to_collection" :{
+        "backdrop_path" : "/9s4BM48NweGFrIRE6haIul0YJ9f.jpg",
+        "id" : 87096,
+        "name" : "Avatar Collection",
+        "poster_path" : "/oexAr649CHHdS0akKEDiHQT1qIk.jpg"
+    },
+    "budget" : 237000000,
+    "genres" :
+        [
+            {
+                "id" : 28,
+                "name" : "Action"
+            },
+            { "id" : 12,
+                "name" : "Adventure"
+            },
+            { "id" : 14,
+                "name" : "Fantasy"
+            },
+            { "id" : 878,
+                "name" : "Science Fiction"
+            }
+        ],
+    "homepage" : "http://www.avatarmovie.com/",
+    "id" : 19995,
+    "imdb_id" : "tt0499549",
+    "original_title" : "Avatar",
+    "overview" : "In the 22nd century, a paraplegic Marine is dispatched to the moon Pandora on a unique mission, but becomes torn between following orders and protecting an alien civilization.",
+    "popularity" : 7.3727575701680097,
+    "poster_path" : "/tcqb9NHdw9SWs2a88KCDD4V8sVR.jpg",
+    "production_companies" : [
+        {
+            "id" : 25,
+            "name" : "20th Century Fox"
+        },
+        { "id" : 444,
+            "name" : "Dune Entertainment"
+        },
+        { "id" : 289,
+            "name" : "Ingenious Film Partners"
+        },
+        { "id" : 574,
+            "name" : "Lightstorm Entertainment"
+        }
+    ],
+    "production_countries" : [
+        { "iso_3166_1" : "GB",
+            "name" : "United Kingdom"
+        },
+        { "iso_3166_1" : "US",
+            "name" : "United States of America"
+        }
+    ],
+    "release_date" : "2009-12-18",
+    "revenue" : 2781505847,
+    "runtime" : 162,
+    "spoken_languages" : [
+        { "iso_639_1" : "en",
+            "name" : "English"
+        },
+        { "iso_639_1" : "es",
+            "name" : "Español"
+        }
+    ],
+    "status" : "Released",
+    "tagline" : "Enter the World of Pandora.",
+    "title" : "Avatar",
+    "vote_average" : 6.7999999999999998,
+    "vote_count" : 5432
+}

@@ -1,0 +1,173 @@
+@relation films
+
+@attribute ID numeric
+@attribute budget numeric
+@attribute genre1 {Action,Crime,Drama,Thriller,Adventure,Science,Fiction,Western,Fantasy,"",Animation,Family,Disaster,Romance,Mystery,Comedy,War,History,Horror,Sport,Musical,Suspense,Neo-noir,Music,Holiday,Sports,Film,Noir,Indie,Short,Documentary,Foreign,Road,Movie,Erotic,Eastern,TV,movie,Kids,Sporting,Event,Fan,Sci-Fi,&,British}
+@attribute genre2 {Action,Crime,Drama,Thriller,Adventure,Science,Fiction,Western,Fantasy,"",Animation,Family,Disaster,Romance,Mystery,Comedy,War,History,Horror,Sport,Musical,Suspense,Neo-noir,Music,Holiday,Sports,Film,Noir,Indie,Short,Documentary,Foreign,Road,Movie,Erotic,Eastern,TV,movie,Kids,Sporting,Event,Fan,Sci-Fi,&,British}
+@attribute genre3 {Action,Crime,Drama,Thriller,Adventure,Science,Fiction,Western,Fantasy,"",Animation,Family,Disaster,Romance,Mystery,Comedy,War,History,Horror,Sport,Musical,Suspense,Neo-noir,Music,Holiday,Sports,Film,Noir,Indie,Short,Documentary,Foreign,Road,Movie,Erotic,Eastern,TV,movie,Kids,Sporting,Event,Fan,Sci-Fi,&,British}
+@attribute genre4 {Action,Crime,Drama,Thriller,Adventure,Science,Fiction,Western,Fantasy,"",Animation,Family,Disaster,Romance,Mystery,Comedy,War,History,Horror,Sport,Musical,Suspense,Neo-noir,Music,Holiday,Sports,Film,Noir,Indie,Short,Documentary,Foreign,Road,Movie,Erotic,Eastern,TV,movie,Kids,Sporting,Event,Fan,Sci-Fi,&,British}
+@attribute genre5 {Action,Crime,Drama,Thriller,Adventure,Science,Fiction,Western,Fantasy,"",Animation,Family,Disaster,Romance,Mystery,Comedy,War,History,Horror,Sport,Musical,Suspense,Neo-noir,Music,Holiday,Sports,Film,Noir,Indie,Short,Documentary,Foreign,Road,Movie,Erotic,Eastern,TV,movie,Kids,Sporting,Event,Fan,Sci-Fi,&,British}
+@attribute genre6 {Action,Crime,Drama,Thriller,Adventure,Science,Fiction,Western,Fantasy,"",Animation,Family,Disaster,Romance,Mystery,Comedy,War,History,Horror,Sport,Musical,Suspense,Neo-noir,Music,Holiday,Sports,Film,Noir,Indie,Short,Documentary,Foreign,Road,Movie,Erotic,Eastern,TV,movie,Kids,Sporting,Event,Fan,Sci-Fi,&,British}
+@attribute genre7 {Action,Crime,Drama,Thriller,Adventure,Science,Fiction,Western,Fantasy,"",Animation,Family,Disaster,Romance,Mystery,Comedy,War,History,Horror,Sport,Musical,Suspense,Neo-noir,Music,Holiday,Sports,Film,Noir,Indie,Short,Documentary,Foreign,Road,Movie,Erotic,Eastern,TV,movie,Kids,Sporting,Event,Fan,Sci-Fi,&,British}
+@attribute popularity numeric
+@attribute releasedate date "yyyy-MM-dd"
+@attribute revenue numeric
+@attribute title string
+@attribute voteaverage numeric
+@attribute votecount numeric
+
+@data
+
+481,185000000.00,"Action","Crime","Drama","Thriller","","","",10.12,"2008-07-18",1001921825.00,"The Dark Knight",7.70,4698
+37600,100000000.00,"Drama","Western","","","","","",8.89,"2012-12-25",424032081.00,"Django Unchained",7.20,4199
+22521,250000000.00,"Action","Crime","Drama","Thriller","","","",9.65,"2012-07-20",1081041287.00,"The Dark Knight Rises",7.20,4058
+842,63000000.00,"Action","Adventure","Science","Fiction","Thriller","","",10.58,"1999-03-30",463517383.00,"The Matrix",7.40,3687
+449,93000000.00,"Action","Adventure","Fantasy","","","","",11.87,"2001-12-19",871368364.00,"The Lord of the Rings: The Fellowship of the Ring",7.40,3407
+451,94000000.00,"Action","Adventure","Fantasy","","","","",12.60,"2003-12-17",1118888979.00,"The Lord of the Rings: The Return of the King",7.50,3204
+595,25000000.00,"Crime","Drama","","","","","",7.71,"1994-09-14",28341469.00,"The Shawshank Redemption",8.00,3202
+793,63000000.00,"Action","Drama","Thriller","","","","",5.73,"1999-10-14",100853753.00,"Fight Club",7.60,2850
+450,79000000.00,"Action","Adventure","Fantasy","","","","",8.03,"2002-12-18",926287400.00,"The Lord of the Rings: The Two Towers",7.40,2778
+915,8000000.00,"Crime","Thriller","","","","","",4.89,"1994-10-14",213928762.00,"Pulp Fiction",7.50,2584
+6452,180000000.00,"Animation","Family","","","","","",8.28,"2008-06-22",521311860.00,"WALL·E",7.20,2218
+8552,150000000.00,"Action","Adventure","Science","Fiction","","","",8.60,"2009-05-07",385680446.00,"Star Trek",7.20,2050
+370,55000000.00,"Comedy","Drama","Romance","","","","",6.63,"1994-06-22",679400000.00,"Forrest Gump",7.50,2048
+368,11000000.00,"Action","Adventure","Science","Fiction","","","",7.11,"1977-05-25",775398007.00,"Star Wars: Episode IV - A New Hope",7.50,2028
+4619,45000000.00,"Animation","Family","","","","","",7.24,"1994-06-23",788241776.00,"The Lion King",7.20,2020
+557,6000000.00,"Crime","Drama","","","","","",5.35,"1972-03-15",245066411.00,"The Godfather",8.00,1999
+428,103000000.00,"Action","Adventure","Drama","","","","",6.13,"2000-05-01",457640427.00,"Gladiator",7.20,1908
+1627,18000000.00,"Action","Adventure","Science","Fiction","","","",5.48,"1980-05-21",538400000.00,"Star Wars: Episode V - The Empire Strikes Back",7.60,1827
+435,19000000.00,"Adventure","Comedy","Science","Fiction","Family","","",5.52,"1985-07-03",381109762.00,"Back to the Future",7.30,1820
+9092,175000000.00,"Adventure","Animation","Comedy","Family","","","",5.04,"2009-09-30",731342744.00,"Up",7.10,1810
+7848,125000000.00,"Adventure","Fantasy","Family","","","","",7.56,"2011-07-07",1327817822.00,"Harry Potter and the Deathly Hallows: Part 2",7.20,1777
+26516,185000000.00,"Action","Adventure","Science","Fiction","","","",7.78,"2013-05-16",467365246.00,"Star Trek Into Darkness",7.40,1733
+1061,70000000.00,"Drama","History","War","","","","",3.70,"1998-07-24",481840909.00,"Saving Private Ryan",7.20,1674
+1066,30000000.00,"Animation","Comedy","Family","","","","",7.57,"1995-11-21",361958736.00,"Toy Story",7.10,1630
+5784,200000000.00,"Animation","Comedy","Family","","","","",5.60,"2010-06-17",1063171911.00,"Toy Story 3",7.20,1526
+1011,33000000.00,"Crime","Mystery","Thriller","","","","",5.46,"1995-09-22",327311859.00,"Se7en",7.50,1474
+1628,32350000.00,"Action","Adventure","Science","Fiction","","","",5.86,"1983-05-25",572700000.00,"Star Wars: Episode VI - Return of the Jedi",7.40,1465
+415,20000000.00,"Action","Adventure","","","","","",5.63,"1981-06-12",383000000.00,"Raiders of the Lost Ark",7.10,1399
+10945,70000000.00,"Action","Drama","Thriller","War","","","",4.57,"2009-08-21",319131050.00,"Inglourious Basterds",7.20,1374
+656,11000000.00,"Action","Horror","Science","Fiction","Thriller","","",7.78,"1979-05-25",104931801.00,"Alien",7.10,1327
+521,72000000.00,"Action","Drama","History","War","","","",5.18,"1995-05-24",210000000.00,"Braveheart",7.20,1209
+956,54000000.00,"Action","Fantasy","Thriller","","","","",4.75,"2005-12-11",132511035.00,"V for Vendetta",7.20,1203
+42749,75000000.00,"Crime","Thriller","","","","","",10.23,"2013-05-31",117698894.00,"Now You See Me",7.10,1120
+419,48000000.00,"Action","Adventure","","","","","",4.81,"1989-05-24",474171806.00,"Indiana Jones and the Last Crusade",7.10,1097
+697,22000000.00,"Drama","History","War","","","","",5.42,"1993-11-29",321265768.00,"Schindler's List",7.60,1082
+437,10000000.00,"Crime","Thriller","","","","","",2.69,"2000-12-06",83557872.00,"Snatch",7.30,1051
+1313,90000000.00,"Crime","Drama","Thriller","","","","",6.13,"2006-10-05",289847354.00,"The Departed",7.20,1046
+559,13000000.00,"Crime","Drama","","","","","",4.04,"1974-12-20",47542841.00,"The Godfather: Part II",7.80,1006
+431,16000000.00,"Crime","Drama","Thriller","","","","",3.73,"1994-09-14",45284974.00,"Leon: The Professional",7.60,1006
+591,19000000.00,"Crime","Drama","Suspense","Thriller","","","",3.04,"1991-02-13",272742922.00,"The Silence of the Lambs",7.30,961
+1212,40000000.00,"Drama","Mystery","Thriller","","","","",4.94,"2006-10-19",109676311.00,"The Prestige",7.20,954
+409,28000000.00,"Drama","Science","Fiction","Thriller","","","",4.53,"1982-06-25",32768670.00,"Blade Runner",7.50,949
+43982,13000000.00,"Comedy","Drama","","","","","",10.63,"2011-11-02",0.00,"Intouchables",7.80,945
+914,18500000.00,"Action","Horror","Science","Fiction","Thriller","","",6.50,"1986-07-18",131060248.00,"Aliens",7.20,931
+458,15000000.00,"Adventure","Animation","Family","","","","",2.79,"2001-07-20",274925095.00,"Spirited Away",7.70,865
+751,60000000.00,"Crime","Drama","Fantasy","","","","",4.37,"1999-12-05",284600000.00,"The Green Mile",7.50,865
+22539,105000000.00,"Drama","Science","Fiction","Thriller","","","",21.78,"2013-10-04",536000000.00,"Gravity",7.90,821
+702,1200000.00,"Western","","","","","","",4.03,"1966-12-23",6000000.00,"The Good, the Bad and the Ugly",7.50,738
+877,52000000.00,"Crime","Drama","","","","","",4.19,"2002-12-25",351112395.00,"Catch Me If You Can",7.10,733
+408,9000000.00,"Drama","Mystery","Thriller","","","","",4.36,"2000-09-05",39723096.00,"Memento",7.30,714
+866,6000000.00,"Crime","Mystery","Thriller","","","","",3.72,"1995-08-16",23341568.00,"The Usual Suspects",7.60,694
+430,1350000.00,"Comedy","Crime","","","","","",0.84,"1998-03-05",3897569.00,"Lock, Stock and Two Smoking Barrels",7.10,694
+874,0.00,"Comedy","Drama","","","","","",2.19,"1997-12-20",229400000.00,"Life Is Beautiful",7.80,654
+445,15000000.00,"Comedy","Crime","","","","","",3.80,"1998-03-06",27739163.00,"The Big Lebowski",7.30,639
+518,11400000.00,"Comedy","Drama","Fantasy","Romance","","","",3.85,"2001-04-25",174000000.00,"Amélie",7.30,637
+8376,33000000.00,"Drama","","","","","","",3.73,"2008-12-11",269958228.00,"Gran Torino",7.10,616
+390,20000000.00,"Fantasy","","","","","","",2.87,"2004-03-19",72000000.00,"Eternal Sunshine of the Spotless Mind",7.40,612
+441,25000000.00,"Action","Adventure","Crime","Drama","Thriller","","",2.67,"1983-12-08",65884703.00,"Scarface",7.30,600
+763,3000000.00,"Drama","","","","","","",3.30,"1975-11-18",108981275.00,"One Flew Over the Cuckoo's Nest",7.50,594
+2094,16000000.00,"Comedy","Fantasy","Romance","Family","","","",5.44,"1987-09-25",30857814.00,"The Princess Bride",7.40,593
+394,10500000.00,"Adventure","Mystery","Science","Fiction","","","",4.32,"1968-04-05",56715371.00,"2001: A Space Odyssey",7.10,590
+43262,170000000.00,"Action","Adventure","Fantasy","","","","",22.01,"2013-11-08",479765000.00,"Thor: The Dark World",7.10,569
+1308,19000000.00,"Drama","Fantasy","War","","","","",6.00,"2006-10-15",8325822.00,"Pan's Labyrinth",7.30,556
+973,25000000.00,"Crime","Drama","","","","","",2.48,"1990-09-18",46836394.00,"Goodfellas",7.50,544
+927,19000000.00,"Horror","Thriller","","","","","",2.36,"1980-05-22",44017374.00,"The Shining",7.30,531
+28845,250000000.00,"Action","Adventure","Fantasy","","","","",22.82,"2013-12-13",949100000.00,"The Hobbit: The Desolation of Smaug",7.60,526
+753,1200000.00,"Crime","Thriller","","","","","",6.09,"1992-06-25",14661007.00,"Reservoir Dogs",7.30,524
+468,4500000.00,"Drama","Mystery","Science","Fiction","Thriller","","",3.05,"2001-10-26",1270522.00,"Donnie Darko",7.20,500
+9539,11715578.00,"Action","Drama","History","Sport","","","",9.93,"2008-12-12",21888598.00,"Ip Man",7.20,500
+670,340000.00,"Drama","","","","","","",3.27,"1957-04-09",0.00,"12 Angry Men",7.90,488
+404,10000000.00,"Drama","","","","","","",3.70,"1998-10-30",23875127.00,"American History X",7.30,471
+13341,9000000.00,"Comedy","Drama","Romance","","","","",2.93,"2009-12-25",70000000.00,"3 Idiots",7.70,460
+4180,25000000.00,"Crime","Drama","Suspense","Thriller","","","",4.04,"2007-11-08",159009059.00,"No Country for Old Men",7.10,450
+966,400000.00,"Adventure","Comedy","Fantasy","","","","",4.75,"1975-03-13",5028948.00,"Monty Python and the Holy Grail",7.40,445
+457,26500000.00,"Adventure","Animation","Fantasy","","","","",1.81,"1997-07-12",159375308.00,"Princess Mononoke",7.80,440
+839,17000000.00,"Drama","War","","","","","",2.84,"1987-05-31",46357676.00,"Full Metal Jacket",7.20,431
+3247,0.00,"Action","Adventure","Animation","Fantasy","Science","Fiction","",2.64,"2004-11-19",234710455.00,"Howl's Moving Castle",7.70,420
+878,4500000.00,"Drama","","","","","","",0.97,"2000-10-27",7390108.00,"Requiem for a Dream",7.30,399
+4546,0.00,"Animation","Fantasy","Family","","","","",3.47,"1988-04-16",0.00,"My Neighbor Totoro",7.70,394
+837,3300000.00,"Crime","Drama","","","","","",2.92,"2002-08-30",27387381.00,"City of God",7.60,388
+3749,15000000.00,"Adventure","Drama","","","","","",2.73,"2007-09-20",37682065.00,"Into the Wild",7.30,384
+11279,5000000.00,"Drama","Science","Fiction","","","","",2.84,"2009-07-17",7191615.00,"Moon",7.30,356
+905,3000000.00,"Action","Drama","Mystery","Thriller","","","",1.31,"2003-12-21",14980005.00,"Oldboy",7.50,343
+604,950000.00,"Drama","Romance","War","","","","",2.53,"1942-11-26",10462500.00,"Casablanca",7.20,332
+10663,39000000.00,"Action","Adventure","Science","Fiction","Thriller","","",2.72,"2005-03-09",38869464.00,"Serenity",7.40,326
+823,4000000.00,"Comedy","","","","","","",2.59,"1979-08-16",20045115.00,"Life of Brian",7.30,325
+384,31500000.00,"Action","Drama","War","","","","",3.60,"1979-08-15",83471511.00,"Apocalypse Now",7.10,301
+850,18339750.00,"Drama","History","War","","","","",2.81,"2004-09-15",92180910.00,"Downfall",7.50,289
+783,806948.00,"Drama","Horror","Thriller","","","","",2.32,"1960-06-16",32000000.00,"Psycho",7.10,288
+643,5000000.00,"Action","Western","","","","","",7.81,"1968-12-21",5321508.00,"Once Upon a Time in the West",7.60,287
+808,1000000.00,"Mystery","Thriller","","","","","",3.08,"1954-08-01",26105286.00,"Rear Window",7.30,284
+592,7000000.00,"Crime","Drama","Thriller","","","","",2.95,"1996-04-05",60611975.00,"Fargo",7.10,280
+1363,10000000.00,"Comedy","Crime","","","","","",1.89,"1999-02-19",12827813.00,"Office Space",7.20,279
+1140,600000.00,"Western","","","","","","",3.78,"1965-12-18",15000000.00,"For a Few Dollars More",7.10,265
+1204,10000000.00,"Horror","Mystery","Science","Fiction","Thriller","","",28.22,"1982-06-25",13782838.00,"The Thing",7.30,264
+1138,1800000.00,"Comedy","Drama","War","","","","",2.26,"1964-01-29",9164370.00,"Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb",7.50,261
+5957,70000000.00,"Adventure","Animation","Fantasy","Science","Fiction","Family","",1.86,"1999-08-06",23159305.00,"The Iron Giant",7.10,258
+533,4000000.00,"Action","Adventure","Drama","Mystery","Suspense","Thriller","",2.49,"1959-07-17",13275000.00,"North by Northwest",7.20,251
+6410,30000000.00,"Drama","Sport","","","","","",1.32,"2000-09-28",136706683.00,"Remember the Titans",7.10,250
+412,1000000.00,"Action","Adventure","Animation","Fantasy","Science","Fiction","",2.97,"1984-03-11",3301446.00,"Nausicaä of the Valley of the Wind",7.80,230
+30506,30000000.00,"Action","Drama","","","","","",3.17,"2011-09-09",0.00,"Warrior",7.40,227
+770,52000000.00,"Action","Crime","Drama","","","","",3.90,"1995-11-22",110400000.00,"Casino",7.20,223
+1401,3180000.00,"Drama","Fantasy","Family","","","","",2.64,"1946-12-30",6600000.00,"It's a Wonderful Life",7.10,213
+7836,41677699.00,"Adventure","Animation","Family","","","","",1.81,"2008-07-19",187479518.00,"Ponyo",7.20,212
+822,2000000.00,"Drama","Thriller","","","","","",1.61,"2006-03-15",70000000.00,"The Lives of Others",7.70,210
+696,35000000.00,"Drama","History","War","","","","",3.30,"2002-12-04",120072577.00,"The Pianist",7.10,210
+407,2500000.00,"Drama","Romance","","","","","",1.50,"1995-01-27",0.00,"Before Sunrise",7.30,209
+1148,15000000.00,"Adventure","Drama","History","War","","","",2.69,"1962-12-10",70000000.00,"Lawrence of Arabia",7.10,207
+9401,12500000.00,"Drama","","","","","","",1.59,"2008-09-12",20416563.00,"The Boy in the Striped Pajamas",7.10,205
+43171,20000000.00,"Drama","History","","","","","",19.38,"2013-10-18",0.00,"12 Years a Slave",7.80,202
+623,30000000.00,"Crime","Drama","","","","","",5.48,"1984-02-17",0.00,"Once Upon a Time in America",7.20,199
+388,0.00,"Western","","","","","","",2.04,"1992-08-07",159157447.00,"Unforgiven",7.10,197
+8429,4000000.00,"Drama","Horror","","","","","",2.35,"2008-10-24",10785801.00,"Let the Right One In",7.40,196
+6294,0.00,"Action","Adventure","Animation","Fantasy","Romance","Family","",1.92,"1986-08-02",3106327.00,"Castle in the Sky",7.50,191
+2436,1500000.00,"Comedy","Drama","","","","","",1.86,"1936-02-05",8500000.00,"Modern Times",7.90,187
+6940,0.00,"Drama","Romance","","","","","",1.21,"1988-11-17",11990401.00,"Cinema Paradiso",7.50,185
+4276,25000000.00,"Drama","","","","","","",2.64,"2007-12-28",76181545.00,"There Will Be Blood",7.50,182
+6535,0.00,"Action","Crime","Drama","Mystery","Thriller","","",1.29,"2002-12-12",0.00,"Infernal Affairs",7.50,178
+654,500000.00,"Action","Drama","","","","","",2.19,"1954-04-26",269061.00,"Seven Samurai",7.90,175
+5948,0.00,"Drama","Music","Romance","","","","",1.63,"1998-10-28",0.00,"The Legend of 1900",7.80,174
+4998,0.00,"Action","Animation","Science","Fiction","","","",2.82,"1995-11-18",0.00,"Ghost in the Shell",7.50,174
+7427,15000000.00,"Drama","War","","","","","",20.59,"1978-12-08",50000000.00,"The Deer Hunter",7.20,174
+372,839727.00,"Drama","","","","","","",1.61,"1941-05-01",23217674.00,"Citizen Kane",7.40,173
+476,10000000.00,"Animation","","","","","","",2.08,"1988-07-16",0.00,"Akira",7.60,171
+434,1530000.00,"Action","Drama","Thriller","","","","",1.04,"1999-06-18",0.00,"Run Lola Run",7.10,170
+2395,2800000.00,"Comedy","Science","Fiction","","","","",0.80,"1974-12-15",86273333.00,"Young Frankenstein",7.20,169
+3618,160000.00,"Drama","Music","Romance","","","","",1.66,"2006-07-14",20710513.00,"Once",7.10,155
+672,200000.00,"Western","","","","","","",2.25,"1964-09-12",14000000.00,"A Fistful of Dollars",7.10,147
+10937,0.00,"Adventure","Animation","Fantasy","Family","","","",1.34,"1989-07-29",18172849.00,"Kiki's Delivery Service",7.20,146
+411,2700000.00,"Drama","Romance","","","","","",1.17,"2004-02-10",15992615.00,"Before Sunset",7.30,144
+1118,2000000.00,"Comedy","","","","","","",3.64,"1940-10-15",0.00,"The Great Dictator",7.60,142
+3758,4000000.00,"Adventure","Drama","History","Thriller","War","","",1.78,"1963-07-04",5000000.00,"The Great Escape",7.10,142
+969,3600000.00,"Comedy","Fantasy","Horror","","","","",2.52,"1987-03-13",5923044.00,"Evil Dead II",7.40,131
+5908,0.00,"Horror","","","","","","",1.60,"1968-10-01",0.00,"Night of the Living Dead",7.20,127
+668,14000000.00,"Action","Adventure","Drama","History","War","","",1.78,"1981-09-16",85000000.00,"The Boat",7.50,126
+1395,18000000.00,"Drama","Sports","Film","","","","",1.55,"1980-11-14",23000000.00,"Raging Bull",7.40,126
+30973,800000.00,"Drama","","","","","","",2.08,"2011-03-15",0.00,"A Separation",7.80,125
+376,92620000.00,"Drama","Science","Fiction","","","","",1.83,"1927-01-10",650422.00,"Metropolis",7.70,124
+20772,0.00,"Comedy","Horror","","","","","",2.22,"2010-01-22",0.00,"Tucker and Dale vs Evil",7.10,123
+400,15000000.00,"Comedy","Science","Fiction","","","","",1.30,"1985-12-18",0.00,"Brazil",7.30,122
+1126,500000.00,"Horror","","","","","","",1.19,"1978-09-02",55000000.00,"Dawn of the Dead",7.30,120
+1973,230000.00,"Comedy","","","","","","",1.42,"1994-10-19",0.00,"Clerks",7.20,115
+8465,200000.00,"Science","Fiction","","","","","",1.58,"2007-11-13",0.00,"The Man from Earth",7.70,114
+21683,0.00,"Action","Crime","Drama","","","","",2.21,"2010-10-08",0.00,"Elite Squad: The Enemy Within",7.40,114
+558,3500000.00,"Comedy","","","","","","",3.05,"1959-03-29",0.00,"Some Like It Hot",7.30,113
+7870,0.00,"Animation","Drama","War","","","","",0.10,"1988-04-16",0.00,"Grave of the Fireflies",7.60,112
+1033,3200000.00,"Crime","Drama","Mystery","Thriller","","","",1.15,"1974-06-20",29200000.00,"Chinatown",7.20,109
+791,0.00,"Crime","Drama","Mystery","","","","",2.22,"1950-12-26",96568.00,"Rashomon",8.00,108
+15204,0.00,"Action","Adventure","Animation","Mystery","Science","Fiction","",2.12,"2010-07-27",6629178.00,"Batman: Under the Red Hood",7.40,108
+7641,0.00,"Music","","","","","","",1.31,"1982-07-14",0.00,"Pink Floyd - The Wall",7.20,107
+8217,0.00,"Adventure","Animation","Comedy","Fantasy","Family","Short","",2.90,"2008-06-26",0.00,"Presto",8.50,106
+4278,4000000.00,"Action","Crime","Drama","","","","",1.22,"2007-10-11",0.00,"Elite Squad",7.60,103
+997,6000000.00,"Crime","Drama","Mystery","Suspense","Thriller","Indie","",1.14,"1986-09-12",8551228.00,"Blue Velvet",7.10,102
