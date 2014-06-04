@@ -27,7 +27,7 @@ public class FilmToFileWriter {
     @Inject
     private FilmManager filmManager;
 
-    private static final String FILE_LOCATION = "C:\\UG\\MovieDBProject\\best.arff";
+    private static final String FILE_LOCATION = "C:\\UG\\MovieDBProject\\img\\best.arff";
 
     private static final String FILE_INIT = "@relation films\n" +
             "\n" +

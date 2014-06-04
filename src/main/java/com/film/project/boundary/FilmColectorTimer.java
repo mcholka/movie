@@ -5,6 +5,7 @@ import com.film.project.control.FilmCollector;
 import com.film.project.db.Counter;
 import org.apache.log4j.Logger;
 
+import javax.ejb.Schedule;
 import javax.ejb.Singleton;
 import javax.ejb.Startup;
 import javax.inject.Inject;
@@ -21,7 +22,7 @@ public class FilmColectorTimer {
     @Inject
     CountManager countManager;
 
-//    @Schedule(persistent = false, hour = "*", minute = "*/5")
+    @Schedule(persistent = false, hour = "*", minute = "*/5")
     public void collect() {
         logger.info("Start FilmColectorTimer work");
         Counter lastCount = countManager.getLastParsedPage();

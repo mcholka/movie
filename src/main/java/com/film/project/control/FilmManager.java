@@ -55,8 +55,8 @@ public class FilmManager {
     public List<Film> findBestFilms() {
         Query query = entityManager.createQuery("" +
                         "SELECT i FROM Film i " +
-                        "where i.voteCount > 100 " +
-                        "and i.voteAverage > 7 " +
+                        "where i.voteCount > 156 " +
+                        "and i.voteAverage > 6.7 " +
                         "order by i.voteCount desc, " +
                         "i.voteAverage desc"
         );
